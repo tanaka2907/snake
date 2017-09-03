@@ -22,6 +22,9 @@ namespace Snake
             HorizontalLine hl = new HorizontalLine(4, 7, 3, '@');
             hl.Draw();
 
+            VertikalLine v1 = new VertikalLine(6, 10, 7, '$');
+            v1.Draw();
+
             Console.ReadLine();
         }
 
